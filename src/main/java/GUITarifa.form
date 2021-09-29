@@ -36,6 +36,7 @@
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
+              <selected value="true"/>
               <text value="Jaime"/>
             </properties>
           </component>

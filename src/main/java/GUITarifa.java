@@ -32,6 +32,7 @@ public class GUITarifa extends JFrame{
         this.pack();
         SistemaDescuento SDsimulado = new SistemaDescuento();
         TablaTarifa TTsimulado = new TablaTarifa();
+        clienteactual=jaime;
         calculadoraTarifa = new CalculadoraTarifa(SDsimulado, TTsimulado);
 
         anaRadioButton.addActionListener(new ActionListener() {
